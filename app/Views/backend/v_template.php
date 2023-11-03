@@ -256,7 +256,7 @@
                             <li class="menu-title">Navigation</li>
 
                             <li>
-                                <a href="index.html">
+                                <a href="/dashboard">
                                     <i class="fe-airplay"></i>
                                     <!-- <span class="badge badge-success badge-pill float-right">1</span> -->
                                     <span> Dashboard </span>
@@ -270,7 +270,7 @@
                                     <span class="menu-arrow"></span>
                                 </a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="ui-typography.html">Pengurus</a></li>
+                                    <li><a href="<?= base_url('/takmir')?>">Pengurus</a></li>
                                     <li><a href="ui-cards.html">Anak Yatim</a></li>
                                     <li><a href="ui-buttons.html">Inventaris</a></li>
                                     <li><a href="ui-modals.html">Sohibul Qurban</a></li>
@@ -284,11 +284,9 @@
                                     <span class="menu-arrow"></span>
                                 </a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="icons-colored.html">Kas</a></li>
-                                    <li><a href="icons-materialdesign.html">Material Design</a></li>
-                                    <li><a href="icons-dripicons.html">Dripicons</a></li>
-                                    <li><a href="icons-fontawesome.html">Font awesome</a></li>
-                                    <li><a href="icons-feather.html">Feather Icons</a></li>
+                                    <li><a href="icons-colored.html">Kas Masuk</a></li>
+                                    <li><a href="icons-materialdesign.html">Kas Keluar</a></li>
+                                    <li><a href="icons-dripicons.html">Rekap Kas</a></li>
                                 </ul>
                             </li>
 
